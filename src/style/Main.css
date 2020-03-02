@@ -1,0 +1,38 @@
+#mainContent {
+  display: grid;
+  text-align: right;
+  margin: 90px;
+}
+.fa {
+  padding: 26px;
+  font-size: 38px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 90%;
+}
+
+#links {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 10% 10% 10%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #be4bdb;
+  color: white;
+}
+
+.fa-google {
+  background: #222;
+  color: white;
+}
