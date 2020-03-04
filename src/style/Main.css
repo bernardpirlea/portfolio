@@ -1,38 +1,21 @@
 #mainContent {
   display: grid;
   text-align: right;
-  margin: 90px;
-}
-.fa {
-  padding: 26px;
-  font-size: 38px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px;
-  border-radius: 90%;
+  margin: 100px;
 }
 
-#links {
-  display: grid;
-  justify-content: end;
-  grid-template-columns: 10% 10% 10%;
+li {
+  display: inline-block;
+  margin: 10px 10px;
 }
-
-.fa:hover {
-  opacity: 0.7;
+.fa-google {
+  background-color: #4285f4;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+  background-color: #007bb5;
 }
 
 .fa-github {
-  background: #be4bdb;
-  color: white;
-}
-
-.fa-google {
-  background: #222;
-  color: white;
+  background-color: #333;
 }

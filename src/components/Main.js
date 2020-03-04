@@ -11,20 +11,33 @@ export default class Main extends Component {
           I am a full stack developer, <br></br> and I try to learn new things
           everday
         </h2>
-        <div id="links">
-          <Link
-            className="fa fa-linkedin"
-            to="https://www.linkedin.com/in/bernardpirlea/"
-          ></Link>
-          <Link
-            className="fa fa-github"
-            to="https://github.com/bernardpirlea"
-          ></Link>
-          <Link
-            className="fa fa-google"
-            to="mailto:pirlea.bernard@gmail.com"
-            target="_top"
-          ></Link>
+        <div>
+          <ul>
+            <li>
+              <Link
+                to="/"
+                className="waves-effect waves-light btn-floating btn-large social linkedin"
+              >
+                <i className="fa fa-linkedin"></i>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="waves-effect waves-light btn-floating btn-large social github"
+              >
+                <i className="fa fa-github"></i>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="google-mail"
+                className="waves-effect waves-light btn-floating btn-large social google"
+              >
+                <i className="fa fa-google"></i>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
