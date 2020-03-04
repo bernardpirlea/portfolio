@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bernardpirlea.github.io/static/css/main.fc550b5e.chunk.css",
+    "main.js": "/bernardpirlea.github.io/static/js/main.125cde7d.chunk.js",
+    "main.js.map": "/bernardpirlea.github.io/static/js/main.125cde7d.chunk.js.map",
+    "runtime-main.js": "/bernardpirlea.github.io/static/js/runtime-main.f00fdf93.js",
+    "runtime-main.js.map": "/bernardpirlea.github.io/static/js/runtime-main.f00fdf93.js.map",
+    "static/js/2.c5b799b4.chunk.js": "/bernardpirlea.github.io/static/js/2.c5b799b4.chunk.js",
+    "static/js/2.c5b799b4.chunk.js.map": "/bernardpirlea.github.io/static/js/2.c5b799b4.chunk.js.map",
+    "index.html": "/bernardpirlea.github.io/index.html",
+    "precache-manifest.eb4a86a4230d1d2a869ef563bec124de.js": "/bernardpirlea.github.io/precache-manifest.eb4a86a4230d1d2a869ef563bec124de.js",
+    "service-worker.js": "/bernardpirlea.github.io/service-worker.js",
+    "static/css/main.fc550b5e.chunk.css.map": "/bernardpirlea.github.io/static/css/main.fc550b5e.chunk.css.map",
+    "static/js/2.c5b799b4.chunk.js.LICENSE.txt": "/bernardpirlea.github.io/static/js/2.c5b799b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f00fdf93.js",
+    "static/js/2.c5b799b4.chunk.js",
+    "static/css/main.fc550b5e.chunk.css",
+    "static/js/main.125cde7d.chunk.js"
+  ]
+}
