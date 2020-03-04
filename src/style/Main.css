@@ -1,7 +1,7 @@
 #mainContent {
   display: grid;
   text-align: right;
-  margin: 100px;
+  margin: 30px 100px 100px;
 }
 
 li {
