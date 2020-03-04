@@ -14,28 +14,28 @@ export default class Main extends Component {
         <div>
           <ul>
             <li>
-              <Link
-                to="/"
+              <a
+                href="https://www.linkedin.com/in/bernardpirlea/"
                 className="waves-effect waves-light btn-floating btn-large social linkedin"
               >
                 <i className="fa fa-linkedin"></i>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="https://github.com/bernardpirlea"
                 className="waves-effect waves-light btn-floating btn-large social github"
               >
                 <i className="fa fa-github"></i>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="google-mail"
+              <a
+                href="mailto:pirlea.bernard@gmail.com"
                 className="waves-effect waves-light btn-floating btn-large social google"
               >
                 <i className="fa fa-google"></i>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
