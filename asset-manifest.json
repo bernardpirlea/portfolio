@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bernardpirlea/bernardpirlea.github.io.git/static/css/main.fc550b5e.chunk.css",
-    "main.js": "/bernardpirlea/bernardpirlea.github.io.git/static/js/main.125cde7d.chunk.js",
-    "main.js.map": "/bernardpirlea/bernardpirlea.github.io.git/static/js/main.125cde7d.chunk.js.map",
-    "runtime-main.js": "/bernardpirlea/bernardpirlea.github.io.git/static/js/runtime-main.35fdaf34.js",
-    "runtime-main.js.map": "/bernardpirlea/bernardpirlea.github.io.git/static/js/runtime-main.35fdaf34.js.map",
-    "static/js/2.c5b799b4.chunk.js": "/bernardpirlea/bernardpirlea.github.io.git/static/js/2.c5b799b4.chunk.js",
-    "static/js/2.c5b799b4.chunk.js.map": "/bernardpirlea/bernardpirlea.github.io.git/static/js/2.c5b799b4.chunk.js.map",
-    "index.html": "/bernardpirlea/bernardpirlea.github.io.git/index.html",
-    "precache-manifest.ba5f7df8dae0ad238f9c13747acfbc76.js": "/bernardpirlea/bernardpirlea.github.io.git/precache-manifest.ba5f7df8dae0ad238f9c13747acfbc76.js",
-    "service-worker.js": "/bernardpirlea/bernardpirlea.github.io.git/service-worker.js",
-    "static/css/main.fc550b5e.chunk.css.map": "/bernardpirlea/bernardpirlea.github.io.git/static/css/main.fc550b5e.chunk.css.map",
-    "static/js/2.c5b799b4.chunk.js.LICENSE.txt": "/bernardpirlea/bernardpirlea.github.io.git/static/js/2.c5b799b4.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.fc550b5e.chunk.css",
+    "main.js": "/static/js/main.125cde7d.chunk.js",
+    "main.js.map": "/static/js/main.125cde7d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1eb18e34.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1eb18e34.js.map",
+    "static/js/2.c5b799b4.chunk.js": "/static/js/2.c5b799b4.chunk.js",
+    "static/js/2.c5b799b4.chunk.js.map": "/static/js/2.c5b799b4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b010bd9ad91295b6283d01b66ceb2f7.js": "/precache-manifest.2b010bd9ad91295b6283d01b66ceb2f7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fc550b5e.chunk.css.map": "/static/css/main.fc550b5e.chunk.css.map",
+    "static/js/2.c5b799b4.chunk.js.LICENSE.txt": "/static/js/2.c5b799b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.35fdaf34.js",
+    "static/js/runtime-main.1eb18e34.js",
     "static/js/2.c5b799b4.chunk.js",
     "static/css/main.fc550b5e.chunk.css",
     "static/js/main.125cde7d.chunk.js"
