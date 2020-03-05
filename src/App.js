@@ -13,7 +13,7 @@ function App() {
         <Route exact path="/academic" component={Progress} />
         <Route exact path="/projects" component={Progress} />
         <Route exact path="/blog" component={Progress} />
-        <Route exact path="/" component={Main} />
+        <Route exact path="/home" component={Main} />
       </div>
     </Router>
   );
