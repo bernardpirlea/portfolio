@@ -6,18 +6,28 @@ export class Navbar extends Component {
   render() {
     return (
       <div id="navbar">
-        <Link id="logo" className="black-text" to="/home">
-          Bernard
-        </Link>
-        <Link className="grey-text text-darken-2" to="/academic">
-          Academic
-        </Link>
-        <Link className="grey-text text-darken-2" to="/projects">
-          Projects
-        </Link>
-        <Link className="grey-text text-darken-2" to="/blog">
-          Blog
-        </Link>
+        <ul>
+          <li>
+            <Link id="logo" className="black-text" to="/home">
+              Bernard
+            </Link>
+          </li>
+          <li>
+            <Link className="grey-text text-darken-2" to="/academic">
+              Academic
+            </Link>
+          </li>
+          <li>
+            <Link className="grey-text text-darken-2" to="/projects">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className="grey-text text-darken-2" to="/blog">
+              Blog
+            </Link>
+          </li>
+        </ul>
       </div>
     );
   }
