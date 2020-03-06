@@ -1,3 +1,7 @@
+#navbar {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
 #navbar ul {
   display: grid;
   grid-gap: 20px;
@@ -9,19 +13,12 @@
 }
 
 #logo {
+  text-align: center;
+  margin: 20px;
+  display: grid;
   padding: 10px;
   font-size: 2rem;
   border: black;
   border-width: 4px;
   border-style: double;
-}
-
-@media screen and (max-width: 700px) {
-  #navbar ul {
-    font-size: 1.2rem;
-    grid-template-columns: 1fr;
-  }
-  #navbar ul li {
-    text-align: center;
-  }
 }
