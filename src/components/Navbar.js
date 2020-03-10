@@ -10,6 +10,9 @@ export class Navbar extends Component {
         <Responsive displayIn={["Laptop"]}>
           <LaptopNav />
         </Responsive>
+        <Responsive displayIn={["Tablet"]}>
+          <LaptopNav />
+        </Responsive>
         <Responsive displayIn={["Mobile"]}>
           <MobileNav />
         </Responsive>

@@ -5,70 +5,81 @@ export default class MobileNav extends Component {
   constructor() {
     super();
     this.state = {
-      show: false,
-      style: false
+      show: false
     };
     this.onButtonClick = this.onButtonClick.bind(this);
   }
   onButtonClick = e => {
-    this.setState({ show: !this.state.show, style: !this.state.style });
+    this.setState({ show: !this.state.show });
   };
+
   render() {
-    let divStyle = this.state.style ? divStyleAfter : divStyleBefore;
     return (
       <div style={divStyle}>
-        {this.state.show ? null : (
-          <div>
-            <Link id="logo" className="black-text" to="/home">
-              Bernard
-            </Link>
-          </div>
-        )}
-        <button onClick={this.onButtonClick} style={buttonStyle}>
-          <i className="small material-icons">menu</i>
-        </button>
+        <div>
+          <Link
+            id="logo"
+            style={{ textAlign: "start" }}
+            className="black-text"
+            to="/home"
+          >
+            Bernard
+          </Link>
+        </div>
+        <div style={{ textAlign: "end" }}>
+          <button
+            className="white"
+            onClick={this.onButtonClick}
+            style={buttonStyle}
+          >
+            <i className="small material-icons white">menu</i>
+          </button>
+        </div>
         {this.state.show ? (
-          <ul style={listStyle}>
-            <li>
-              <Link className="link grey-text text-darken-2" to="/academic">
-                Academic
-              </Link>
-            </li>
-            <li>
-              <Link className="link grey-text text-darken-2" to="/projects">
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link className="link grey-text text-darken-2" to="/blog">
-                Blog
-              </Link>
-            </li>
-          </ul>
+          <div style={menuStyle}>
+            <ul style={listStyle}>
+              <li>
+                <Link className="link grey-text text-darken-2" to="/academic">
+                  Academic
+                </Link>
+              </li>
+              <li>
+                <Link className="link grey-text text-darken-2" to="/projects">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link className="link grey-text text-darken-2" to="/blog">
+                  Blog
+                </Link>
+              </li>
+            </ul>
+          </div>
         ) : null}
       </div>
     );
   }
 }
+const menuStyle = {
+  position: "absolute",
+  top: "0",
+  right: "0",
+  marginTop: "50px"
+};
+
 const listStyle = {
-  display: "grid",
-  gridTemplateColumns: "1fr",
   justifyContent: "center",
   alignItems: "center",
   textAlign: "center"
 };
 
-const divStyleBefore = {
+const divStyle = {
   display: "grid",
-  gridTemplateColumns: "2fr 1fr"
-};
-
-const divStyleAfter = {
-  display: "grid",
-  gridTemplateColumns: "1fr"
+  gridTemplateColumns: "1fr 1fr"
 };
 
 const buttonStyle = {
   border: "0",
-  padding: "0"
+  padding: "20px",
+  margin: "0"
 };
