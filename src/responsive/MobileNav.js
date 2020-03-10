@@ -21,7 +21,7 @@ export default class MobileNav extends Component {
             id="logo"
             style={{ textAlign: "start" }}
             className="black-text"
-            to="/home"
+            to="/portfolio"
           >
             Bernard
           </Link>

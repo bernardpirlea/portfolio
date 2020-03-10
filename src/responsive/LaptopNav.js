@@ -7,7 +7,7 @@ export default class LaptopNav extends Component {
     return (
       <div id="navbar">
         <div>
-          <Link id="logo" className="black-text" to="/home">
+          <Link id="logo" className="black-text" to="/portfolio">
             Bernard
           </Link>
         </div>
