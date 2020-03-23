@@ -14,7 +14,7 @@ export default class LaptopNav extends Component {
         <ul>
           <li>
             <Link className="link grey-text text-darken-2" to="/academic">
-              Academic
+              Academics
             </Link>
           </li>
           <li>
