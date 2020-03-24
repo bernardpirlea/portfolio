@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Academic from "./components/Academic";
 import Progress from "./components/Progress";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Route exact path="/academic" component={Academic} />
-        <Route exact path="/projects" component={Progress} />
+        <Route exact path="/projects" component={Projects} />
         <Route exact path="/blog" component={Progress} />
         <Route exact path="/portfolio" component={Main} />
       </div>
