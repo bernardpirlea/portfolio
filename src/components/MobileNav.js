@@ -5,11 +5,11 @@ export default class MobileNav extends Component {
   constructor() {
     super();
     this.state = {
-      show: false
+      show: false,
     };
     this.onButtonClick = this.onButtonClick.bind(this);
   }
-  onButtonClick = e => {
+  onButtonClick = (e) => {
     this.setState({ show: !this.state.show });
   };
 
@@ -23,7 +23,7 @@ export default class MobileNav extends Component {
             className="black-text"
             to="/portfolio"
           >
-            Bernard
+            Home
           </Link>
         </div>
         <div style={{ textAlign: "end" }}>
@@ -64,22 +64,22 @@ const menuStyle = {
   position: "absolute",
   top: "0",
   right: "0",
-  marginTop: "50px"
+  marginTop: "50px",
 };
 
 const listStyle = {
   justifyContent: "center",
   alignItems: "center",
-  textAlign: "center"
+  textAlign: "center",
 };
 
 const divStyle = {
   display: "grid",
-  gridTemplateColumns: "1fr 1fr"
+  gridTemplateColumns: "1fr 1fr",
 };
 
 const buttonStyle = {
   border: "0",
   padding: "20px",
-  margin: "0"
+  margin: "0",
 };

@@ -8,7 +8,7 @@ export default class LaptopNav extends Component {
       <div id="navbar">
         <div>
           <Link id="logo" className="black-text" to="/portfolio">
-            Bernard
+            Home
           </Link>
         </div>
         <ul>
