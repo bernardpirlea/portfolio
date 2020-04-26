@@ -8,7 +8,7 @@ export default class Main extends Component {
       <div id="mainContent">
         <h1>Hello,</h1>
         <h2>
-          I am Bernard, <br></br> a full-stack developer
+          I am Bernard, <br /> a software developer
         </h2>
         <div>
           <ul>

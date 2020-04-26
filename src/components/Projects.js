@@ -10,7 +10,9 @@ export default class Projects extends Component {
           <div className="col s12 m6">
             <div className="card medium">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src={simpleApiImage} />
+                <a href="https://salty-falls-47840.herokuapp.com/">
+                  <img className="activator" src={simpleApiImage} />
+                </a>
               </div>
               <div className="card-content">
                 <span className="card-title">Simple Store Application</span>
@@ -61,5 +63,5 @@ export default class Projects extends Component {
 }
 
 const divStyle = {
-  paddingTop: "60px"
+  paddingTop: "60px",
 };
